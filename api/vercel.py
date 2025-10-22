@@ -15,11 +15,8 @@ HEADERS = {
 WORKFLOWS = [
     {"repo": "Base-TOPacked", "workflow": "main_base_to_packed.yaml"},
     {"repo": "Base-Sacas2.0", "workflow": "main_base_sacas2.0.yaml"},
-    {"repo": "Base-ended", "workflow": "main_ended.yaml"},
     {"repo": "ToPackedSP7", "workflow": "main_base_to_packedSP7.yaml"},
     {"repo": "piso_exp_sp7", "workflow": "piso10.yml"},
-    {"repo": "BaseExpedi-o", "workflow": "main_expedicao.yaml"},
-    {"repo": "Base-inbound", "workflow": "main_inbound.yaml"},
 ]
 
 # Rota principal para verificar se o app está no ar
