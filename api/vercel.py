@@ -13,7 +13,6 @@ HEADERS = {
 
 # Lista de workflows a serem acionados
 WORKFLOWS = [
-    {"repo": "Base-TOPacked", "workflow": "main_base_to_packed.yaml"},
     {"repo": "Base-Sacas2.0", "workflow": "main_base_sacas2.0.yaml"},
     {"repo": "ToPackedSP7", "workflow": "main_base_to_packedSP7.yaml"},
     {"repo": "piso_exp_sp7", "workflow": "piso10.yml"},
